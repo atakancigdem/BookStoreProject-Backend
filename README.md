@@ -56,3 +56,7 @@
 <br>
 <p>It's a bit confusing, but you'll understand. :relaxed:</p>
 
+
+<h2 align="center">
+  See you on the frontend :wave:
+  </h2>
