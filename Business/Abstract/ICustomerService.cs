@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Core.Utilities.Results;
 using Entities.Concrete;
+using Entities.DTOs;
 
 namespace Business.Abstract
 {
@@ -14,6 +15,7 @@ namespace Business.Abstract
         IDataResult<List<Customer>> GetListByUserId(int userId);
         IDataResult<Customer> GetById(int customerId);
         IDataResult<List<Customer>> GetListByCompanyName(string companyName);
+        IDataResult<List<CustomerDetailDto>> GetCustomerDetails();
         IResult Add(Customer customer);
         IResult Update(Customer customer);
         IResult Delete(Customer customer);

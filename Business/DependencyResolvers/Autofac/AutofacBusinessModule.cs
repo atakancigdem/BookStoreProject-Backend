@@ -45,6 +45,9 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<CustomerManager>().As<ICustomerService>().SingleInstance();
             builder.RegisterType<EfCustomerDal>().As<ICustomerDal>().SingleInstance();
 
+            builder.RegisterType<BookImageManager>().As<IBookImageService>().SingleInstance();
+            builder.RegisterType<EfBookImageDal>().As<IBookImageDal>().SingleInstance();
+
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
 

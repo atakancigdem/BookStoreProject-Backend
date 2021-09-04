@@ -26,10 +26,10 @@ namespace WebAPI.Controllers
             var result = _authorService.GetList();
             if (result.Success)
             {
-                return Ok(result);
+                return Ok(result.Message);
             }
 
-            return BadRequest(result);
+            return BadRequest(result.Message);
         }
 
         [HttpGet("id")]
@@ -38,10 +38,10 @@ namespace WebAPI.Controllers
             var result = _authorService.GetById(authorId);
             if (result.Success)
             {
-                return Ok(result);
+                return Ok(result.Message);
             }
 
-            return BadRequest(result);
+            return BadRequest(result.Message);
         }
 
         [HttpGet("name")]
@@ -50,10 +50,10 @@ namespace WebAPI.Controllers
             var result = _authorService.GetByName(authorName);
             if (result.Success)
             {
-                return Ok(result);
+                return Ok(result.Message);
             }
 
-            return BadRequest(result);
+            return BadRequest(result.Message);
         }
 
         [HttpPost("add")]
@@ -62,10 +62,10 @@ namespace WebAPI.Controllers
             var result = _authorService.Add(author);
             if (result.Success)
             {
-                return Ok(result);
+                return Ok(result.Message);
             }
 
-            return BadRequest(result);
+            return BadRequest(result.Message);
         }
 
         [HttpPut("update")]
@@ -74,10 +74,10 @@ namespace WebAPI.Controllers
             var result = _authorService.Update(author);
             if (result.Success)
             {
-                return Ok(result);
+                return Ok(result.Message);
             }
 
-            return BadRequest(result);
+            return BadRequest(result.Message);
         }
 
         [HttpDelete("delete")]
@@ -86,10 +86,10 @@ namespace WebAPI.Controllers
             var result = _authorService.Delete(author);
             if (result.Success)
             {
-                return Ok(result);
+                return Ok(result.Message);
             }
 
-            return BadRequest(result);
+            return BadRequest(result.Message);
         }
     }
 }

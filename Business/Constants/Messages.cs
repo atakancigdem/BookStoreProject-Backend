@@ -86,6 +86,16 @@ namespace Business.Constants
         internal static string SubheadingUpdate = "Alt başlık güncellendi";
         internal static string SubheadingDelete = "Alt başlık silindi";
 
+        //BookImage
+        internal static string OverflowBookImageMessage = "Kitabın 5 ten fazla resmi olamaz";
+        internal static string BookImageAdded = "Kitap resmi başarı ile eklendi";
+        internal static string BookImageNotFound = "Resim bulunamadı";
+        internal static string BookImageDeleted = "Kitap resmi silindi";
+        internal static string BookImagesListed = "Kitapların resimleri listelendi";
+        internal static string BookImageListed = "Kitabın resmi görüntülendi";
+        internal static string BookImageUpdated = "Kitabın resmi güncellendi";
+        internal static string BookImageLimitExceeded = "Fotoğraf yükleme limitini aştınız (=5)";
+
 
         //User
         internal static string UserRegistered = "Kullanıcı başarıyla oluşturuldu.";

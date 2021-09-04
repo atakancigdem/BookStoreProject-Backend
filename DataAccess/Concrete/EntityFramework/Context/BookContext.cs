@@ -24,6 +24,7 @@ namespace DataAccess.Concrete.EntityFramework.Context
         public DbSet<Subheading> Subheadings { get; set; }
         public DbSet<SubheadingOfSubheading> SubheadingsOfSubheading { get; set; }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<BookImage> BookImages { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<OperationClaim> OperationClaims { get; set; }
         public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
