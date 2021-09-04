@@ -1,3 +1,3 @@
-<p align="center" height =200px>
+<p align="center">
 BookStoreProject-Backend
 </p>
