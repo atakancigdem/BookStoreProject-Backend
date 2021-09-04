@@ -42,4 +42,5 @@
   Database Tables :beginner:
 </h1>
 
-![DatabaseTables](https://user-images.githubusercontent.com/90088895/132098172-fc61e211-2e9f-4f96-a755-d4a3ec402115.png)
+![DatabaseTables](https://user-images.githubusercontent.com/90088895/132098258-e338e4fc-1f88-4657-a2a9-8b8b507214ce.png)
+
