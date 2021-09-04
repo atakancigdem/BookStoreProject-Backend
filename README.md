@@ -13,7 +13,7 @@
 <p>I developed this project to improve myself and learn new technologies. Contact me to tell about my <em>shortcomings</em>, other <em>technologies</em> I can add. :telephone_receiver:</p>
 
 <h1 align="center">
-  Technologies Used :computer: Techniques :bulb:
+  Technologies Used :computer:
 </h1>
 
 <ul>                                         
