@@ -43,4 +43,7 @@
 </h1>
 
 ![DatabaseTables](https://user-images.githubusercontent.com/90088895/132098258-e338e4fc-1f88-4657-a2a9-8b8b507214ce.png)
+<br>
+<br>
+<p>It's a bit confusing, but you'll understand. :relaxed:</p>
 
