@@ -13,15 +13,15 @@
 <p>I developed this project to improve myself and learn new technologies. Contact me to tell about my <em>shortcomings</em>, other <em>technologies</em> I can add. :telephone_receiver:</p>
 
 <h1 align="center">
-  Technologies Used :computer:
+  Technologies Used :computer: And Techniques :bulb:
 </h1>
 
-<ul>
-  <li>.NET</li>
-  <li>ASP.NET for Restful api</li>
-  <li>EntityFramework Core</li>
-  <li>Autofac</li>
-  <li>FluentValidation</li>
-  <li>MsSql</li>
+<ul>                                          <ul>
+  <li>.NET</li>                                  <li>Layered Architecture Design Pattern</li>
+  <li>ASP.NET for Restful api</li>               <li>AOP</li>
+  <li>Entity Framework Core</li>                 <li>JWT</li>
+  <li>Autofac</li>                               <li>Autofac dependency resolver</li>
+  <li>Fluent Validation</li>                     <li>IOC</li>
+  <li>MsSql</li>                                </ul>
 </ul>
 
