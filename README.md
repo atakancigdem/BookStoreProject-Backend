@@ -11,7 +11,10 @@
   Table of Contents :question:
 </h1>
 <ul>
-  <li><a href=#introduction>Introduction</a></li>
+  <li>Introduction</li>
+  <li>Technologies Used</li>
+  <li>Techniques</li>
+  <li>Database Tables</li>
 </ul>
 
 <h1 align="center">
