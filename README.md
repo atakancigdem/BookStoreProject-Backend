@@ -16,3 +16,12 @@
   Technologies Used :computer:
 </h1>
 
+<ul>
+  <li>.NET</li>
+  <li>ASP.NET for Restful api</li>
+  <li>EntityFramework Core</li>
+  <li>Autofac</li>
+  <li>FluentValidation</li>
+  <li>MsSql</li>
+</ul>
+
