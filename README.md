@@ -83,7 +83,6 @@ namespace Core.DataAccess
         void Delete(T entity);
     }
   }
-  
  ```
   
   <p>sing the AOP programming model, you could, instead of modifying each method, develop an aspect and 'apply' it on methods of interest.</p>
@@ -153,7 +152,6 @@ namespace Core.DataAccess.EntityFramework
         }
     }
 }
-
 ```
 
 <h1 align="center">
@@ -171,7 +169,6 @@ namespace Core.DataAccess.EntityFramework
             Thread.Sleep(5000);
             return new SuccessDataResult<List<Book>>(_bookDal.GetList().ToList(), Messages.BooksListed);
         }
-        
   ```
  
   ![YetkinizYok](https://user-images.githubusercontent.com/90088895/132128893-2eb2cfc9-4ca8-4463-926b-fa2131c43461.jpg)
@@ -189,7 +186,6 @@ namespace Core.DataAccess.EntityFramework
   
    builder.RegisterType<BookManager>().As<IBookService>().SingleInstance();
    builder.RegisterType<EfBookDal>().As<IBookDal>().SingleInstance();
-   
   ```
   
   <h1 align="center">
