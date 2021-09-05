@@ -11,10 +11,15 @@
   Table of Contents :question:
 </h1>
 <ul>
-  <li>Introduction</li>
-  <li>Technologies Used</li>
-  <li>Techniques</li>
-  <li>Database Tables</li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--introduction-books">Introduction</a></li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--technologies-used-computer">Technologies Used</a></li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--techniques-bulb">Techniques</a></li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--database-tables-beginner">Database Tables</a></li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--aop-techniques--">AOP Techniques</a></li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--jwt---">JWT</a></li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--autofac-dependency-resolver-techniques--">DependencyResolver</a></li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--ioc--">IoC</a></li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--autofac--"></a></li>
 </ul>
 
 <h1 align="center">
@@ -202,6 +207,8 @@ namespace Core.DataAccess.EntityFramework
   Autofac
   </h1>
   
+  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac" target="_blank">You can find the Autofac codes here.</a></p>
+  
   <h3>Contents</h3>
   
   <ul>
@@ -212,8 +219,6 @@ namespace Core.DataAccess.EntityFramework
   <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Transaction</p></li>
   <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Validation</p></li>
   </ul>
-  <br>
-  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac" target="_blank">You can find the Autofac codes here.</a></p>
 
 <h2 align="center">
   See you on the frontend :wave:
