@@ -19,7 +19,7 @@
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--jwt---">JWT</a></li>
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--autofac-dependency-resolver-techniques--">DependencyResolver</a></li>
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--ioc--">IoC</a></li>
-  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--autofac--"></a></li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--autofac--">Autofac</a></li>
 </ul>
 
 <h1 align="center">
@@ -202,6 +202,34 @@ namespace Core.DataAccess.EntityFramework
   </h1>
   
  <p>Inversion of control is a software design principle. With Ioc, it is aimed to minimize the dependencies of the object instances in the application by providing management. It can also be described as the framework that does the creation and management of dependencies in your project rather than the developer.</p>
+  
+  <h1 align="center">
+  Entity Framework Core
+  </h1>
+  
+  ```chsarp
+  
+   public class BookContext : DbContext
+    {
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=BookDatabase;Trusted_Connection=true");
+        }
+
+        public DbSet<Book> Books { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Author> Authors { get; set; }
+        public DbSet<Language> Languages { get; set; }
+        public DbSet<Publisher> Publishers { get; set; }
+        public DbSet<Subheading> Subheadings { get; set; }
+        public DbSet<SubheadingOfSubheading> SubheadingsOfSubheading { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<BookImage> BookImages { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<OperationClaim> OperationClaims { get; set; }
+        public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
+    }
+  ```
   
   <h1 align="center">
   Autofac
