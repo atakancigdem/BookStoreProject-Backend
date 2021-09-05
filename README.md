@@ -157,7 +157,7 @@ namespace Core.DataAccess.EntityFramework
 ```
 
 <h1 align="center">
-  JWT Techniques
+  JWT 
   </h1>
   <p>A JWT is a mechanism to verify the owner of some JSON data. It’s an encoded, URL-safe string that can contain an unlimited amount of data (unlike a cookie) and is cryptographically signed.</p>
   <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Utilities/Security/Jwt" target="_blank">You can find the JWT codes here.</a></p>
@@ -179,9 +179,27 @@ namespace Core.DataAccess.EntityFramework
   ![List](https://user-images.githubusercontent.com/90088895/132129209-e4f25bf0-b9da-4b29-94e8-3185d032272a.jpg)
 
   <p>The part I marked is where we place the token</p>
+  
   <h1 align="center">
   Autofac dependency resolver Techniques)
   </h1>
+  <p></p>
+  
+  <h1 align="center">
+  Autofac dependency resolver Techniques)
+  </h1>
+  
+  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac" target="_blank">You can find the Autofac codes here.</a></p>
+  
+  <h3>Contents</h3>
+  
+  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Caching</p>
+  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Exception</p>
+  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Logging</p>
+  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Performance</p>
+  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Transaction</p>
+  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Validation</p>
+  
 
 <h2 align="center">
   See you on the frontend :wave:
