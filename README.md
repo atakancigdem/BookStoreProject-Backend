@@ -283,11 +283,11 @@ namespace Core.DataAccess.EntityFramework
        }
    ```
    <p>We use <code>CacheRemoveAspect</code> to clear cached data.
-   <hr/>
+   
   <h3>Performance</h3>
   <hr/>
   <p>If the processing time of the method is longer than expected this aspect writes it to debug screen. </p>
-  <hr/>
+  
   <h3>Transaction</h3>
   <hr/>
   <p>If an operation handles more than one transaction and other transactions need to withdrawal when one transaction failed, you can add [TransactionScopeAspect] on top of the related operation.</p>
