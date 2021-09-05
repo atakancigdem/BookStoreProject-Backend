@@ -23,6 +23,10 @@
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--autofac--">Autofac</a></li>
   <ul>
     <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend#contents">Contents</a></li>
+    <ul>
+      <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend#--caching--">Caching</a></li>
+      <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend#performance">Performance</a></li>
+    </ul>
   </ul>
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--fluent-validation--">FluentValidation</a></li>
 </ul>
