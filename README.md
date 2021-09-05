@@ -26,6 +26,7 @@
     <ul>
       <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend#--caching--">Caching</a></li>
       <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend#performance">Performance</a></li>
+      <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend#performance">Transaction</a></li>
     </ul>
   </ul>
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--fluent-validation--">FluentValidation</a></li>
@@ -285,7 +286,11 @@ namespace Core.DataAccess.EntityFramework
    
   <h3>Performance</h3>
   
-  <p></p>
+  <p>If the processing time of the method is longer than expected this aspect writes it to debug screen. </p>
+  
+  <h3>Transaction</h3>
+  
+  <p>If an operation handles more than one transaction and other transactions need to withdrawal when one transaction failed, you can add [TransactionScopeAspect] on top of the related operation.</p>
 
 <h1 align="center">
   Fluent Validation
