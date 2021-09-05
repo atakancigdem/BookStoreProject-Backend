@@ -181,7 +181,7 @@ namespace Core.DataAccess.EntityFramework
   Autofac dependency resolver Techniques
   </h1>
   
-  Allows WEB API to pull required codes
+  <p>.NET supports the dependency injection (DI) software design pattern, which is a technique for achieving Inversion of Control (IoC) between classes and their dependencies. Dependency injection in .NET is a first-class citizen, along with configuration, logging, and the options pattern.</p>
   
   <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs">You can find the Autofac Dependency Resolver codes here.</a></p>
   
@@ -190,6 +190,12 @@ namespace Core.DataAccess.EntityFramework
    builder.RegisterType<BookManager>().As<IBookService>().SingleInstance();
    builder.RegisterType<EfBookDal>().As<IBookDal>().SingleInstance();
   ```
+  
+  <h1 align="center">
+  IoC
+  </h1>
+  
+ <p>Inversion of control is a software design principle. With Ioc, it is aimed to minimize the dependencies of the object instances in the application by providing management. It can also be described as the framework that does the creation and management of dependencies in your project rather than the developer.</p>
   
   <h1 align="center">
   Autofac
