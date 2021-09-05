@@ -323,7 +323,7 @@ namespace Core.DataAccess.EntityFramework
 <h1 align="center">
   Fluent Validation
   </h1>
-  <p><code>FluentValidation</code> is a validation library for .NET used to create strict type validation rules for your business objects.</p>
+  <p><code><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--fluent-validation--"></a></code> is a validation library for .NET used to create strict type validation rules for your business objects.</p>
   
 ```csharp
 
