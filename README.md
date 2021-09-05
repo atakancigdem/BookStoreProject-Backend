@@ -178,9 +178,12 @@ namespace Core.DataAccess.EntityFramework
   <p>The part I marked is where we place the token</p>
   
   <h1 align="center">
-  Autofac dependency resolver Techniques)
+  Autofac dependency resolver Techniques
   </h1>
+  
   Allows WEB API to pull required codes
+  
+  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs">You can find the Autofac Dependency Resolver codes here.</a></p>
   
   ```csharp
   
