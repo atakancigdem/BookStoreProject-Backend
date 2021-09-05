@@ -173,7 +173,7 @@ namespace Core.DataAccess.EntityFramework
         }
         
   ```
-  <p aling="center">
+  <p align="center">
   ![YetkinizYok](https://user-images.githubusercontent.com/90088895/132128893-2eb2cfc9-4ca8-4463-926b-fa2131c43461.jpg)
   </p>
   <h1 align="center">
