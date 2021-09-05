@@ -161,6 +161,16 @@ namespace Core.DataAccess.EntityFramework
   </h1>
   <p>A JWT is a mechanism to verify the owner of some JSON data. It’s an encoded, URL-safe string that can contain an unlimited amount of data (unlike a cookie) and is cryptographically signed.</p>
   <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Utilities/Security/Jwt" target="_blank">You can find the JWT codes here.</a></p>
+  ```csharp
+        [SecuredOperation("Book.List,Admin")] //attribute that makes jwt meaningful
+        [PerformanceAspect(5)]
+        [CacheAspect(duration: 10)]
+        public IDataResult<List<Book>> GetAll()
+        {
+            Thread.Sleep(5000);
+            return new SuccessDataResult<List<Book>>(_bookDal.GetList().ToList(), Messages.BooksListed);
+        }
+  ```
 
 <h2 align="center">
   See you on the frontend :wave:
