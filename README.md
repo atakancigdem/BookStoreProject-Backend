@@ -300,6 +300,7 @@ namespace Core.DataAccess.EntityFramework
   
   <p>Attribute that allows us to use the rules we set in Fluent Validation. We use <code>[ValidationAspect(typeof(BookValidator)]</code> code.</p> 
   <br>
+  
 ```csharp
 
      [SecuredOperation("Book.Add,Admin")]
