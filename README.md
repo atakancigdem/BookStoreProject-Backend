@@ -82,13 +82,14 @@ namespace Core.DataAccess
         void Update(T entity);
         void Delete(T entity);
     }
-  }"
+  }
   
  ```
   
   <p>sing the AOP programming model, you could, instead of modifying each method, develop an aspect and 'apply' it on methods of interest.</p>
 
 ```chasrp
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -152,6 +153,7 @@ namespace Core.DataAccess.EntityFramework
         }
     }
 }
+
 ```
 
 <h2 align="center">
