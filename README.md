@@ -163,7 +163,7 @@ namespace Core.DataAccess.EntityFramework
   <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Utilities/Security/Jwt" target="_blank">You can find the JWT codes here.</a></p>
   
   ```csharp
-        [SecuredOperation("Book.List,Admin")] //attribute that makes jwt meaningful
+        [SecuredOperation("Book.List,Admin")] //Attribute that makes JWT meaningful
         [PerformanceAspect(5)]
         [CacheAspect(duration: 10)]
         public IDataResult<List<Book>> GetAll()
