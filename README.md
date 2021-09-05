@@ -181,7 +181,8 @@ namespace Core.DataAccess.EntityFramework
   Autofac dependency resolver Techniques
   </h1>
   
-  <p>.NET supports the dependency injection (DI) software design pattern, which is a technique for achieving Inversion of Control (IoC) between classes and their dependencies. Dependency injection in .NET is a first-class citizen, along with configuration, logging, and the options pattern.</p>
+<p>IDependencyResolver veya Common Service Locator IServiceLocator arabirimini uygulayan bağımlılık çözümleyicileri için bir kayıt noktası sağlar .</p>
+<a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.dependencyresolver?view=aspnet-mvc-5.2">DependencyResolver Class</a>
   
   <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs">You can find the Autofac Dependency Resolver codes here.</a></p>
   
