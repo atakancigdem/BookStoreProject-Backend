@@ -236,7 +236,7 @@ namespace Core.DataAccess.EntityFramework
   Autofac
   </h1>
   
-  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac" target="_blank">You can find the Autofac codes here.</a></p>
+  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac" >You can find the Autofac codes here.</a></p>
   
   <h3>Contents</h3>
   
@@ -248,6 +248,43 @@ namespace Core.DataAccess.EntityFramework
   <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Transaction</p></li>
   <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Validation</p></li>
   </ul>
+
+<h1 align="center">
+  Fluent Validation
+  </h1>
+  <p><code>FluentValidation</code> is a validation library for .NET used to create strict type validation rules for your business objects.</p>
+  
+```csharp
+
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Entities.Concrete;
+using FluentValidation;
+
+namespace Business.ValidationRules.FluentValidation
+{
+    public class BookValidator : AbstractValidator<Book>
+    {
+        public BookValidator()
+        {
+            RuleFor(b => b.BookName).NotEmpty();
+            RuleFor(b => b.BookName).MinimumLength(1);
+            RuleFor(b => b.CategoryId).NotEmpty();
+            RuleFor(b => b.LanguageId).NotEmpty();
+            RuleFor(b => b.AuthorId).NotEmpty();
+            RuleFor(b => b.PublisherId).NotEmpty();
+            RuleFor(b => b.Price).NotEmpty();
+            RuleFor(b => b.Price).GreaterThan(0);
+            RuleFor(b => b.StockQty).NotEmpty();
+        }
+    }
+}
+```
+<p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Business/ValidationRules/FluentValidation" >You can find the FluentValidation codes here.</a></p>
 
 <h2 align="center">
   See you on the frontend :wave:
