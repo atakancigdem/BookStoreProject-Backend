@@ -176,7 +176,9 @@ namespace Core.DataAccess.EntityFramework
  
   ![YetkinizYok](https://user-images.githubusercontent.com/90088895/132128893-2eb2cfc9-4ca8-4463-926b-fa2131c43461.jpg)
   ![Token](https://user-images.githubusercontent.com/90088895/132129092-61b501ee-7271-4c0e-8d3f-5388aa2a82ba.jpg)
-  
+  ![List](https://user-images.githubusercontent.com/90088895/132129209-e4f25bf0-b9da-4b29-94e8-3185d032272a.jpg)
+
+  <p>The part I marked is where we place the token</p>
   <h1 align="center">
   Autofac dependency resolver Techniques)
   </h1>
