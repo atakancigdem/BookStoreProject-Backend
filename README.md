@@ -187,7 +187,7 @@ namespace Core.DataAccess.EntityFramework
   Autofac dependency resolver Techniques
   </h1>
   
-<p>IDependencyResolver veya Common Service Locator IServiceLocator arabirimini uygulayan bağımlılık çözümleyicileri için bir kayıt noktası sağlar .</p>
+<p>Provides a registration point for dependency resolvers that implement <code>IDependencyResolver</code> or the Common Service Locator IServiceLocator interface.</p>
 <a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.dependencyresolver?view=aspnet-mvc-5.2">DependencyResolver Class</a>
   <br>
   <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs">You can find the Autofac Dependency Resolver codes here.</a></p>
