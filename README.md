@@ -298,7 +298,7 @@ namespace Core.DataAccess.EntityFramework
   <h3>Validation</h3>
   <hr/>
   
-  <p>Attribute that allows us to use the rules we set in Fluent Validation. We use <code>[ValidationAspect(typeof(BookValidator)]</code> code.</p> 
+  <p>Attribute that allows us to use the rules we set in <a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--fluent-validation--">Fluent Validation</a>. We use <code>[ValidationAspect(typeof(BookValidator)]</code> code.</p> 
   <br>
   
 ```csharp
@@ -323,7 +323,7 @@ namespace Core.DataAccess.EntityFramework
 <h1 align="center">
   Fluent Validation
   </h1>
-  <p><code><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--fluent-validation--"></a></code> is a validation library for .NET used to create strict type validation rules for your business objects.</p>
+  <p><code>FluentValidation</code> is a validation library for .NET used to create strict type validation rules for your business objects.</p>
   
 ```csharp
 
