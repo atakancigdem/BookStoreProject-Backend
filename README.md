@@ -27,6 +27,7 @@
       <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend#--caching--">Caching</a></li>
       <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend#performance">Performance</a></li>
       <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend#transaction">Transaction</a></li>
+      <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#validation">Validation</a></li>
     </ul>
   </ul>
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--fluent-validation--">FluentValidation</a></li>
@@ -286,31 +287,36 @@ namespace Core.DataAccess.EntityFramework
    
   <h3>Performance</h3>
   <hr/>
+  
   <p>If the processing time of the method is longer than expected this aspect writes it to debug screen. </p>
   
   <h3>Transaction</h3>
   <hr/>
+  
   <p>If an operation handles more than one transaction and other transactions need to withdrawal when one transaction failed, you can add [TransactionScopeAspect] on top of the related operation.</p>
 
   <h3>Validation</h3>
   <hr/>
+  
   <p>Attribute that allows us to use the rules we set in Fluent Validation</p> <code>[ValidationAspect(typeof(BookValidator)] </code>
+  
 ```csharp
-        [SecuredOperation("Book.Add,Admin")]
-        [ValidationAspect(typeof(BookValidator), Priority = 1)] 
-        [CacheRemoveAspect("IBookService.Get")]
-        public IResult Add(Book book)
+
+     [SecuredOperation("Book.Add,Admin")]
+     [ValidationAspect(typeof(BookValidator), Priority = 1)] 
+     [CacheRemoveAspect("IBookService.Get")]
+     public IResult Add(Book book)
+     {
+        IResult result = BusinessRules.Run(CheckIfBookNameExists(book.BookName), CheckIfCategoryIsEnabled());
+
+        if (result != null)
         {
-            IResult result = BusinessRules.Run(CheckIfBookNameExists(book.BookName), CheckIfCategoryIsEnabled());
-
-            if (result != null)
-            {
-                return result;
-            }
-
-            _bookDal.Add(book);
-            return new SuccessResult(Messages.BookAdded);
+            return result;
         }
+
+        _bookDal.Add(book);
+        return new SuccessResult(Messages.BookAdded);
+      }
 ```
 
 <h1 align="center">
