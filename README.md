@@ -193,13 +193,14 @@ namespace Core.DataAccess.EntityFramework
   
   <h3>Contents</h3>
   
-  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Caching</p>
-  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Exception</p>
-  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Logging</p>
-  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Performance</p>
-  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Transaction</p>
-  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Validation</p>
-  
+  <ul>
+  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Caching</p></li>
+  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Exception</p></li>
+  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Logging</p></li>
+  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Performance</p></li>
+  <li><li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Transaction</p></li>
+  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Validation</p></li>
+  </ul>
 
 <h2 align="center">
   See you on the frontend :wave:
