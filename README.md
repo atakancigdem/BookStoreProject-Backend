@@ -183,7 +183,7 @@ namespace Core.DataAccess.EntityFramework
   
 <p>IDependencyResolver veya Common Service Locator IServiceLocator arabirimini uygulayan bağımlılık çözümleyicileri için bir kayıt noktası sağlar .</p>
 <a href="https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.dependencyresolver?view=aspnet-mvc-5.2">DependencyResolver Class</a>
-  
+  <br>
   <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs">You can find the Autofac Dependency Resolver codes here.</a></p>
   
   ```csharp
