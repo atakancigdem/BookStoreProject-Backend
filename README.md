@@ -88,7 +88,7 @@ namespace Core.DataAccess
   
   <p>sing the AOP programming model, you could, instead of modifying each method, develop an aspect and 'apply' it on methods of interest.</p>
 
-```chasrp
+```csharp
 
 using System;
 using System.Collections.Generic;
