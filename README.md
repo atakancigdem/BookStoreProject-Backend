@@ -21,6 +21,7 @@
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--ioc--">IoC</a></li>
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--entity-framework-core--">Entity Framework Core</a></li>
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--autofac--">Autofac</a></li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--fluent-validation--">FluentValidation</a></li>
 </ul>
 
 <h1 align="center">
