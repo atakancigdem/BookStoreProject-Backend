@@ -173,11 +173,9 @@ namespace Core.DataAccess.EntityFramework
         }
         
   ```
-  <p align="center">
-  
+ 
   ![YetkinizYok](https://user-images.githubusercontent.com/90088895/132128893-2eb2cfc9-4ca8-4463-926b-fa2131c43461.jpg)
-  
-  </p>
+  ![Token](https://user-images.githubusercontent.com/90088895/132129092-61b501ee-7271-4c0e-8d3f-5388aa2a82ba.jpg)
   
   <h1 align="center">
   Autofac dependency resolver Techniques)
