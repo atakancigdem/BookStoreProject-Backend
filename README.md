@@ -62,7 +62,7 @@
   <p>Aspect-Oriented Programming (AOP), also named Aspect-Oriented Software Development (AOSD), is an approach to software development that goes further in the direction of separation of concerns. Separation of concerns is one of the most important rules in software development. It states that the same concern should be solved in a single unit of code. This is also called modularization . In procedural programming, the unit of code is the procedure (or function, or method). In object-oriented programming , the unit of code is the class.
 
 Some concerns cannot be implemented successfully using a pure procedural or object-oriented programming. An example of this is code security. If you want to secure objects and methods, you have to modify the code of each method. That's why security is called a crosscutting concern, because it crosscuts the unit of modularization of the programming paradigm, in this case the class.</p>
-<code>using System;
+'''csharp >using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
@@ -78,7 +78,7 @@ namespace Core.DataAccess
         void Update(T entity);
         void Delete(T entity);
     }
-}</code>
+}'''
   <p>sing the AOP programming model, you could, instead of modifying each method, develop an aspect and 'apply' it on methods of interest.</p>
   <code>using System;
 using System.Collections.Generic;
