@@ -186,7 +186,7 @@ namespace Core.DataAccess.EntityFramework
   <p></p>
   
   <h1 align="center">
-  Autofac dependency resolver Techniques)
+  Autofac
   </h1>
   
   <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac" target="_blank">You can find the Autofac codes here.</a></p>
@@ -198,7 +198,7 @@ namespace Core.DataAccess.EntityFramework
   <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Exception</p></li>
   <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Logging</p></li>
   <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Performance</p></li>
-  <li><li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Transaction</p></li>
+  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Transaction</p></li>
   <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Validation</p></li>
   </ul>
 
