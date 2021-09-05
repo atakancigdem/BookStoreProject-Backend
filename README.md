@@ -183,7 +183,14 @@ namespace Core.DataAccess.EntityFramework
   <h1 align="center">
   Autofac dependency resolver Techniques)
   </h1>
-  <p></p>
+  Allows WEB API to pull required codes
+  
+  ```csharp
+  
+   builder.RegisterType<BookManager>().As<IBookService>().SingleInstance();
+   builder.RegisterType<EfBookDal>().As<IBookDal>().SingleInstance();
+   
+  ```
   
   <h1 align="center">
   Autofac
