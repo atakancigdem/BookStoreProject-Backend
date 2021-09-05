@@ -292,6 +292,27 @@ namespace Core.DataAccess.EntityFramework
   <hr/>
   <p>If an operation handles more than one transaction and other transactions need to withdrawal when one transaction failed, you can add [TransactionScopeAspect] on top of the related operation.</p>
 
+  <h3>Validation</h3>
+  <hr/>
+  <p>Attribute that allows us to use the rules we set in Fluent Validation</p> <code>[ValidationAspect(typeof(BookValidator)] </code>
+```csharp
+        [SecuredOperation("Book.Add,Admin")]
+        [ValidationAspect(typeof(BookValidator), Priority = 1)] 
+        [CacheRemoveAspect("IBookService.Get")]
+        public IResult Add(Book book)
+        {
+            IResult result = BusinessRules.Run(CheckIfBookNameExists(book.BookName), CheckIfCategoryIsEnabled());
+
+            if (result != null)
+            {
+                return result;
+            }
+
+            _bookDal.Add(book);
+            return new SuccessResult(Messages.BookAdded);
+        }
+```
+
 <h1 align="center">
   Fluent Validation
   </h1>
