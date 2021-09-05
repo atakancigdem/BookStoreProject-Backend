@@ -242,16 +242,46 @@ namespace Core.DataAccess.EntityFramework
   
   <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac" >You can find the Autofac codes here.</a></p>
   
-  <h3>Contents</h3>
+  <h2>Contents</h2>
   
   <ul>
   <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Caching</p></li>
-  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Exception</p></li>
-  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Logging</p></li>
-  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Performance</p></li>
-  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Transaction</p></li>
-  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Caching"</a>Validation</p></li>
+  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Exception"</a>Exception</p></li>
+  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Logging"</a>Logging</p></li>
+  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Performance"</a>Performance</p></li>
+  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Transaction"</a>Transaction</p></li>
+  <li><p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Aspects/Autofac/Validation"</a>Validation</p></li>
   </ul>
+  
+  <h3 >
+  Caching
+  </h3>
+  
+  <p>The aspect that helps us to keep the returned <code>data in the cache</code></p>
+  
+  ```csharp
+        [SecuredOperation("Book.List,Admin")]
+        [PerformanceAspect(5)]
+        [CacheAspect(duration: 10)]
+        public IDataResult<List<Book>> GetAll()
+        {
+            Thread.Sleep(5000);
+            return new SuccessDataResult<List<Book>>(_bookDal.GetList().ToList(), Messages.BooksListed);
+        }
+  ```
+  ```csharp
+       [CacheRemoveAspect("IBookService.Get")]
+       public IResult Delete(Book book)
+       {
+           _bookDal.Delete(book);
+           return new SuccessResult(Messages.BookDelete);
+       }
+   ```
+   <p>We use <code>CacheRemoveAspect</code> to clear cached data.
+   
+  <h3>Performance</h3>
+  
+  <p></p>
 
 <h1 align="center">
   Fluent Validation
