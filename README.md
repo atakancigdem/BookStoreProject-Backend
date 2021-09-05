@@ -156,6 +156,12 @@ namespace Core.DataAccess.EntityFramework
 
 ```
 
+<h1 align="center">
+  JWT Techniques
+  </h1>
+  <p>A JWT is a mechanism to verify the owner of some JSON data. It’s an encoded, URL-safe string that can contain an unlimited amount of data (unlike a cookie) and is cryptographically signed.</p>
+  <p><a href="https://github.com/atakancigdem/BookStoreProject-Backend/tree/master/Core/Utilities/Security/Jwt">You can find the JWT codes here.</a></p>
+
 <h2 align="center">
   See you on the frontend :wave:
   </h2>
