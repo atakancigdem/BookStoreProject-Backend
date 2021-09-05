@@ -19,6 +19,7 @@
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--jwt---">JWT</a></li>
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--autofac-dependency-resolver-techniques--">DependencyResolver</a></li>
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--ioc--">IoC</a></li>
+  <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--entity-framework-core--">Entity Framework Core</a></li>
   <li><a href="https://github.com/atakancigdem/BookStoreProject-Backend/blob/master/README.md#--autofac--">Autofac</a></li>
 </ul>
 
@@ -207,7 +208,7 @@ namespace Core.DataAccess.EntityFramework
   Entity Framework Core
   </h1>
   
-  ```chsarp
+  ```csharp
   
    public class BookContext : DbContext
     {
