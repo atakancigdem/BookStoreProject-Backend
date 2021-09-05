@@ -181,7 +181,7 @@ namespace Core.DataAccess.EntityFramework
   ![Token](https://user-images.githubusercontent.com/90088895/132129092-61b501ee-7271-4c0e-8d3f-5388aa2a82ba.jpg)
   ![List](https://user-images.githubusercontent.com/90088895/132129209-e4f25bf0-b9da-4b29-94e8-3185d032272a.jpg)
 
-  <p>The part I marked is where we place the token</p>
+  <p><code>The part I marked is where we place the token</code></p>
   
   <h1 align="center">
   Autofac dependency resolver Techniques
